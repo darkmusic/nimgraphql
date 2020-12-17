@@ -22,7 +22,7 @@ proc GraphQLAstPreBuild(outdir, header: string) =
 
 getHeader(
   header = "GraphQLAst.h",
-  giturl = "https://github.com/graphql/libgraphqlparser",
+  giturl = "https://github.com/darkmusic/libgraphqlparser",
   outdir = baseDir,
   altNames =  "graphqlparser"
 )
